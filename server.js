@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Set up MySQL connection
 const db = mysql.createConnection({
-    host: 'ip',
+    host: '192.168.1.160',
     user: 'virtual',  
     password: 'Admin@1234', 
     database: 'ecommerce'  
